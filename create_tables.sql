@@ -1,3 +1,6 @@
+# Make sure you set the database to the correct name
+use posts_app;
+
 CREATE TABLE `user` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(45) NOT NULL,
